@@ -1,272 +1,283 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Referencia de la hoja de estilo de Css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Fuente del Proyecto Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>Portafolio - Roy Chavarría</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <!-- Sección del Menú  -->
+    <section class="menu">
+      <header class="menu__header">
+        <div class="menu__izquierda">
+          <img src="img/Logo.png" />
+          <div class="menu__barra">
+            <input class="menu__search" placeholder="¿Que deseas buscar?" />
+            <img src="img/Icone.png" />
+          </div>
+        </div>
+        <button class="menu__login" id="login">Login</button>
+      </header>
+    </section>
     <div class="tudo">
-        <!-- Sección del Menú  -->
-        <section class="menu">
-            <header class="menu__header">
-               <div class="menu__izquierda">
-                    <img src="img/Logo.png">
-                    <div class="menu__barra">
-                        <input class="menu__search" placeholder="¿Que deseas hacer?" >
-                        <img src="img/Icone.png">
-                    </div>
-                </div>
-                <button class="menu__login" id="login">Login</button>
-            </header>
-        </section>
-          <!-- Sección del banner  -->
-        <section class="banner">
-            <div class="banner__texto">
-                <p class="banner__texto__titulo">Promociones del mes</p>
-                <p class="banner__texto__detalle">Productos seleccionados con un 33% de descuento</p>
+      <!-- Sección del banner  -->
+      <section class="banner">
+        <div class="banner__texto">
+          <p class="banner__texto__titulo">Promociones del mes</p>
+          <p class="banner__texto__detalle">
+            Productos seleccionados con un 33% de descuento
+          </p>
+          <button class="banner__texto__boton">Ver promociones</button>
+        </div>
+      </section>
 
-            </div>
-
-        </section>
-
-        <!-- Cuerpo -->
-        <div class="cuerpo">
+      <!-- Cuerpo -->
+     
         <!-- Sección del Header/Title/Hero -->
-        <section class="title">
-            <div class="title__div">
+        <section class="linea__productos">
+          <div class="linea__productos__tipo">
+            <p class="linea__productos__titulo">Star Wars</p>
+            <a class="linea__productos_boton" href="#">Ver todo <img src="img/arrow_back_black_24dp 1.svg" class="linea__productos__boton__imagen"></a>
+        </div>
+        <div class="linea__productos__productos">
+            <li class="linea__productos__productos__item">
+                <div class="linea__productos__productos__item__skill">
+                    <div class="linea__productos__productos__item__img">
+                        <img src="img/unsplash_4OHkK555s1A.png">
+                    </div>
+                </div>
+                <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                <p class="linea__productos__productos__item__precio">$60</p>
+                <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+            </li>
+            <li class="linea__productos__productos__item">
+                <div class="linea__productos__productos__item__skill">
+                    <div class="linea__productos__productos__item__img">
+                        <img src="img/unsplash_1VV1MRafd7A.png">
+                    </div>
+                </div>
+                <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                <p class="linea__productos__productos__item__precio">$60</p>
+                <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+            </li>
+            <li class="linea__productos__productos__item">
+                <div class="linea__productos__productos__item__skill">
+                    <div class="linea__productos__productos__item__img">
+                        <img src="img/unsplash_6FDXGY9J6y4.png">
+                    </div>
+                </div>
+                <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                <p class="linea__productos__productos__item__precio">$60</p>
+                <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+            </li>
+            <li class="linea__productos__productos__item">
+                <div class="linea__productos__productos__item__skill">
+                    <div class="linea__productos__productos__item__img">
+                        <img src="img/unsplash_epRFE_hBNjo.png">
+                    </div>
+                </div>
+                <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                <p class="linea__productos__productos__item__precio">$60</p>
+                <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+            </li>
+            <li class="linea__productos__productos__item">
+                <div class="linea__productos__productos__item__skill">
+                    <div class="linea__productos__productos__item__img">
+                        <img src="img/unsplash_KeGToDVN0l4.png">
+                    </div>
+                </div>
+                <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                <p class="linea__productos__productos__item__precio">$60</p>
+                <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+            </li>
+            <li class="linea__productos__productos__item">
+                <div class="linea__productos__productos__item__skill">
+                    <div class="linea__productos__productos__item__img">
+                        <img src="img/unsplash_R8L1l9RN198.png">
+                    </div>
+                </div>
+                <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                <p class="linea__productos__productos__item__precio">$60</p>
+                <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+            </li>
+        </div>
+        </section>
 
-                <div class="title__container">
-                    <h2 class="title__bio">Hola, mi nombre es Roy y construyo sitios web</h2>
-                    <h3 class="title__subsection">Soy formado en Ingeniería Informática y actualmente estoy participando del proyecto Oracle ONE en Alura Latam como especialista en Front End.</h3>
 
-                    <ul class="title__network">
-                        <!-- Pon los enlaces de tus redes sociales favoritas -->
-                        <li class="title__network__item"><a href="https://github.com/roychaba" target="_blank">Github <img src="assets\arrow.png"> </a></li>
-                        <li class="title__network__item"><a href="https://cr.linkedin.com/in/roy-chavarr%C3%ADa-b-4774465" target="_blank">Linkedin <img src="assets\arrow.png"></a></li>
-                        <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
-                        <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
+        <!-- linea de productos dos -->
+        <section class="linea__productos">
+            <div class="linea__productos__tipo">
+              <p class="linea__productos__titulo">Star Wars</p>
+              <a class="linea__productos_boton" href="#">Ver todo <img src="img/arrow_back_black_24dp 1.svg" class="linea__productos__boton__imagen"></a>
+          </div>
+          <div class="linea__productos__productos">
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_4OHkK555s1A.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_1VV1MRafd7A.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_6FDXGY9J6y4.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_epRFE_hBNjo.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_KeGToDVN0l4.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_R8L1l9RN198.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+          </div>
+          </section>
+  
+          <!-- Linea de productos tres -->
+          <section class="linea__productos">
+            <div class="linea__productos__tipo">
+              <p class="linea__productos__titulo">Star Wars</p>
+              <a class="linea__productos_boton" href="#">Ver todo <img src="img/arrow_back_black_24dp 1.svg" class="linea__productos__boton__imagen"></a>
+          </div>
+          <div class="linea__productos__productos">
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_4OHkK555s1A.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_1VV1MRafd7A.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_6FDXGY9J6y4.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_epRFE_hBNjo.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_KeGToDVN0l4.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+              <li class="linea__productos__productos__item">
+                  <div class="linea__productos__productos__item__skill">
+                      <div class="linea__productos__productos__item__img">
+                          <img src="img/unsplash_R8L1l9RN198.png">
+                      </div>
+                  </div>
+                  <p class="linea__productos__productos__item__nombre">Producto XYZ</p>
+                  <p class="linea__productos__productos__item__precio">$60</p>
+                  <a class="linea__productos__productos__item__link" href="#">Ver producto</a>
+              </li>
+          </div>
+          </section>
+
+      <!-- Sección de Footer -->
+      <section class="footer">
+        <div class="footer__rodape">
+            <div class="footer__rodape__content">
+                <img src="img/Logo.png" />
+                <nav>
+                    <ul class="menu__list">
+                        <li class="menu__list__item"><a href="#" class="menu__list__item__link">Quienes somos</a> </li>
+                        <li class="menu__list__item"><a href="#" class="menu__list__item__link">Política de privacidad</a></li>
+                        <li class="menu__list__item"><a href="#" class="menu__list__item__link">Programa de fidelidad</a></li>
+                        <li class="menu__list__item"><a href="#" class="menu__list__item__link">Nuestras tiendas</a></li>
+                        <li class="menu__list__item"><a href="#" class="menu__list__item__link">Quiero ser franquiciado</a></li>
+                        <li class="menu__list__item"><a href="#" class="menu__list__item__link">Anúnciese aquí</a></li>
                     </ul>
-
-                </div>
-                <img class="title__profile" src="assets\profile.png">
+                </nav>
             </div>
-        </section>
-
-        <!-- Sección sobre mi -->
-        <section class="about" id="sobre-mi">
-            <div class="about__container">
-                <h3 class="about__title">Sobre mi</h3>
-                <p class="about__paragraph">Soy una persona esforzada, colaborativa y con deseos de superación. He trabajado en diferentes proyectos de TI donde he realizado trabajo en equipo con personas de diferentes nacionalidades.   </p>
-                <p class="about__paragraph">Siempre busco dar mi mayor esfuerzo en los trabajos que realizo, soy muy responsable, abierto a observaciones que me ayuden a mejorar y siempre estoy dispuesto a aprender, nunca nos detenemos de aprender.</p>
-                <div class="about__insignias">
-                    <!-- Si quieres, pon tú firma acá! -->
-                    <img class="about__insignia" src="assets\insignia.png">
-                    <img class="about__insignia" src="assets\oracle-one-logo.png">
-                    <img class="about__insignia" src="assets\oracle-aluraespanhol.png">
-                </div>
-            </div>
-        </section>
-        <section class="skills_hobbies">
-            <!-- Sección de Skills -->
-            <section class="skills" id="skills">
-                <h3 class="skills__title">Skills</h3>
-                <div class="skills__line">
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"><img src="assets\htlm.png"></li>
-                            <li class="skills__name"> HTML 5</li>
-                        </ul>
-                    </div>
-
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
-                            <li class="skills__name">Javascript</li>
-                        </ul>
-                    </div>
-
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
-                            <li class="skills__name">PHP</li>
-                        </ul>
-                    </div>
-
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
-                            <li class="skills__name">Node JS</li>
-                        </ul>
-                    </div>
-
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
-                            <li class="skills__name">React</li>
-                        </ul>
-                    </div>
-
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
-                            <li class="skills__name">CSS</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Sección de Hobbies -->
-
-            <section class="hobbies" id="hobbies">
-                <h3 class="hobbies__title">Hobbies</h3>
-                <div class="hobbies__line">
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
-                            <li class="hobbies__name"> Patinaje</li>
-                        </ul>
-                    </div>
-
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
-                            <li class="hobbies__name">Tocar bajo</li>
-                        </ul>
-                    </div>
-
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
-                            <li class="hobbies__name">Escuchar música</li>
-                        </ul>
-                    </div>
-
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
-                            <li class="hobbies__name">Ver Películas</li>
-                        </ul>
-                    </div>
-
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
-                            <li class="hobbies__name">Cocinar</li>
-                        </ul>
-                    </div>
-
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
-                            <li class="hobbies__name">Tomar fotos</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <!-- Sección de Formación académica -->
-        <section class="academic" id="formacion">
-            <h2 class="academic__title">Formación académica</h2>
-            <div class="academic__courses">
-                <div class="academic__courses__box">
-                    <ul class="academic__courses__list">
-                        <!-- Pon el logotipo de la institución de formación -->
-                        <li class="academic__courses__item__img"><img src="assets\logoUIA.png"></li>
-                        <li class="academic__courses__item__title"><h4>Ingeniería en Informática</h4></li>
-                        <li class="academic__courses__item__subtitle"><p>2014 - UIA</p></li>
-                    </ul>
-                </div>
-                <div class="academic__courses__box">
-                    <ul class="academic__courses__list">
-                        <!--Pon el logotipo de la institución de formación -->
-                        <li class="academic__courses__item__img"><img src="assets\isc2_cissp2.png"></li>
-                        <li class="academic__courses__item__title"><h4>Certified Information Systems Security Professional (CISSP)</h4></li>
-                        <li class="academic__courses__item__subtitle"><p>2020 - ISC2</p></li>
-                    </ul>
-                </div>
-                <div class="academic__courses__box">
-                    <ul class="academic__courses__list">
-                        <!-- Pon el logotipo de la institución de formación -->
-                        <li class="academic__courses__item__img"><img src="assets\sc900.png"></li>
-                        <li class="academic__courses__item__title"><h4>Security, Compliance, and Identity Fundamentals</h4></li>
-                        <li class="academic__courses__item__subtitle"><p>2021 - Microsoft</p></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Sección de Experiencia Profesional/Proyectos-->
-        <section class="experience" id="xp">
-            <h2 class="experience__section__title">Experiencia Profesional</h2>
-            <div class="experience_items">
-                <div class="experiencie__box">
-                    <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                    <img class="experience__img" src="assets\encriptador.png">
-                    <div class="experience__info">
-                        <h2 class="experience__title">Encriptador de texto</h2>
-                        <h3 class="experience__text">Challenge Alura Codificador </h3>
-                        <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a target="_blank" href="https://github.com/roychaba/encriptador"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a target="_blank" href="https://roychaba.github.io/encriptador/"><button class="experience__botao--demo">Ver demo</button></a></span>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- Sección de Contacto -->
-        <section class="formcontato" id="contacto">
-            <div class="formcontato__contacto">
-                <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="assets\contactenos.png">
-                </div>
-                <div class="formcontato__text">
-                    <h2 class="formcontato__title">Contacto</h2>
-                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
-                    <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <div class="input-container--valid">
-                            <input class="formcontato__input" type="text" name="nombre" id="nombre" placeholder="Nombre" required data-tipo="nombre">
-                            <span class="input-message-error">Este campo no es valido</span>
-                        </div>
-                        <div class="input-container--valid">
-                            <input class="formcontato__input" type="email" name="email" id="email" placeholder="E-mail" required data-tipo="email">
-                            <span class="input-message-error">Correo no es valido</span>
-                        </div>
-                        <div class="input-container--valid">
-                            <input class="formcontato__input" type="text" id="asunto" name="asunto" placeholder="Asunto" required data-tipo="asunto">
-                            <span class="input-message-error">Este campo no es valido</span>
-                        </div>
-                        <div class="input-container--valid">
-                            <textarea class="formcontato__input" required rows="7" cols="40" name="mensaje" id="mensaje" placeholder="Escriba aquí su Mensaje" data-tipo="mensaje"></textarea>
-                            <span class="input-message-error">Este campo no es valido</span>
-                        </div>
-                        <button type="submit" class="formcontato__botao__disable" disabled="true" id="btnEnviarMensaje">Enviar mensaje</button>
-                    </form>
-                </div>
-            </div>
-        </section>
+        </div>
+        <div class="footer__rodape__final">
+            <p>Desarrollado por Roy Chavarría</p>
+            <p>2023</p>
+          </div>
+      </section>
     </div>
-        <!-- Sección de Footer -->
-        <section class="footer">
-            <div class="footer__rodape">
-                <p>Desarrollado por Roy Chavarría</p>
-                <p>2023</p>
-            </div>
-        </section>
-    </div>
- <!-- Script del documento JavaScript -->
+    <!-- Script del documento JavaScript -->
     <script src="./js/app.js" type="module"></script>
-</body>
+  </body>
 </html>
