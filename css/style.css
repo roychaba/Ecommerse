@@ -579,7 +579,7 @@ body {
     /*Footer*/
     .footer {
         display: flex;
-        padding: 32px;
+      
         justify-content: center;
         align-items: center;
         gap: 115px;
@@ -618,5 +618,15 @@ body {
         gap: 16px;
         align-self: stretch;
 
+    }
+
+    .footer__rodape__final {
+        display: flex;
+        padding: 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        background: #FFF;
     }
 }
