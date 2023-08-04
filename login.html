@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fuente del Proyecto Raleway -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Sección del Menú  -->
+    <section class="menu">
+      <header class="menu__header">
+        <div class="menu__izquierda">
+          <a href="index.html"><img src="img/Logo.png" /></a>
+          <div class="menu__barra">
+            <input class="menu__search" placeholder="¿Que deseas buscar?" />
+            <img src="img/Icone.png" />
+          </div>
+        </div>
+      </header>
+    </section>
+    <div class="tudo">
+      <!-- Seccion login -->
+      <section class="login">
+        <p class="lgTitulo">Iniciar Sesión</p>
+        <form id="frmLogin" class="login">
+            <div class="input-container--valid">
+                <input id="lgCorreo" class="login__input" type="email" placeholder="Ingrese su correo"  required data-tipo="email"/>
+                <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container--valid">
+               <input id="lgClave" class="login__input" type="password" placeholder="Ingrese su contraseña" required data-tipo="clave"/>
+               <span class="input-message-error">Este campo no es valido</span>
+            </div>
+          <button id="lgEntrar" class="login__boton" type="submit">
+            Entrar
+          </button>
+        </form>
+      </section>
+
+      <!-- Sección de Footer -->
+      <section class="footer">
+        <div class="footer__rodape">
+          <div class="footer__rodape__content">
+            <img src="img/Logo.png" />
+            <nav>
+              <ul class="menu__list">
+                <li class="menu__list__item">
+                  <a href="#" class="menu__list__item__link">Quienes somos</a>
+                </li>
+                <li class="menu__list__item">
+                  <a href="#" class="menu__list__item__link"
+                    >Política de privacidad</a
+                  >
+                </li>
+                <li class="menu__list__item">
+                  <a href="#" class="menu__list__item__link"
+                    >Programa de fidelidad</a
+                  >
+                </li>
+                <li class="menu__list__item">
+                  <a href="#" class="menu__list__item__link"
+                    >Nuestras tiendas</a
+                  >
+                </li>
+                <li class="menu__list__item">
+                  <a href="#" class="menu__list__item__link"
+                    >Quiero ser franquiciado</a
+                  >
+                </li>
+                <li class="menu__list__item">
+                  <a href="#" class="menu__list__item__link">Anúnciese aquí</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="formContacto">
+            <p class="formContacto__titulo">Hable con nosotros</p>
+            <form class="formContacto__campos">
+              <div class="input-container--valid">
+                <input id="nombre"  placeholder="Nombre" placelabel="Nombre" class="formContacto__input"  required data-tipo="nombre"/>
+                <span class="input-message-error">Este campo no es valido</span>
+              </div>
+              <div class="input-container--valid">
+                    <textarea   id="mensaje"   placeholder="Mensaje" class="formContacto__input"  rows="5"   required data-tipo="mensaje"></textarea>
+                    <span class="input-message-error">Este campo no es valido</span>
+              </div>
+              <button id="enviarMensaje" class="formContacto__boton">Enviar mensaje</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__rodape__final">
+          <p>Desarrollado por Roy Chavarría</p>
+          <p>2023</p>
+        </div>
+      </section>
+    </div>
+    <!-- Script del documento JavaScript -->
+    <script src="./js/login.js" type="module"></script>
+  </body>
+</html>
